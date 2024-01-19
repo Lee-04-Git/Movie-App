@@ -24,6 +24,11 @@ export class MovieDetailsPage implements OnInit {
       })
     }
 
+    const newFeature = function() {
+      console.log("Welcome to the application!");
+    };
+    newFeature();
+
   }
 
   openHomePage() {
